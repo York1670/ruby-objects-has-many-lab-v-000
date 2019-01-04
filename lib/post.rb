@@ -9,6 +9,9 @@ class Post
 
   def self.all
     @@all
-  end
-  
+  end #end of all
+
+  def author_name(name)
+    name = Self.new
+    author.name = name
 end #end of class Post
