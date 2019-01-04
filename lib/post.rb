@@ -4,10 +4,11 @@ class Post
 
   def initialize(title)
     @title = title
+    @@all << self
   end #end of initialize
 
   def self.all
-    @all
+    @@all
   end
   
 end #end of class Post
