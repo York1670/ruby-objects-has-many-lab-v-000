@@ -6,4 +6,8 @@ class Post
     @title = title
   end #end of initialize
 
+  def self.all
+    @all
+  end
+  
 end #end of class Post
