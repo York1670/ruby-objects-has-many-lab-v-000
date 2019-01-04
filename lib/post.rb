@@ -12,6 +12,6 @@ class Post
   end #end of all
 
   def author_name
-    author.name = Author.self
+    author.name = Author
   end #end of author_name
 end #end of class Post
