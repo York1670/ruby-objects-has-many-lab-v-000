@@ -13,5 +13,6 @@ class Post
 
   def author_name(name)
     author = Author.new(name)
+    @@all << author
   end #end of author_name
 end #end of class Post
